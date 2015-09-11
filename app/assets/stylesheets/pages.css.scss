@@ -1,0 +1,205 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 100%;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.menu li {
+    display: inline;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+}
+
+.menu li a {
+    color: #000;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.name h1 {
+    color: #000;
+    font-size: 18px;
+    line-height: 100px;
+    height: 100px;
+    margin: 15px, 0px;
+    text-align: right;
+}
+
+.main h2 {
+    color: #000;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right;
+}
+
+.highlight {
+    background-color: #eaeff4;
+    color: #000;
+    padding: 0 10px 0;
+}
+
+.home .jumbotron {
+    background: url("https://dl.dropboxusercontent.com/u/14962984/night-city-wallpaper-15.jpg") center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.home h2 {
+    color: #fff;
+}
+
+a.btn:hover, .nav li a:hover, .nav-btn:hover {
+    background-color: #cc6cff;
+    color: #fff;
+    transition: background-color .5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+}
+
+a.btn {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 0;
+    padding: 0;
+    transition: background-color .5s;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+    width: 200px;
+}
+
+a {
+    background-color: transparent;
+}
+
+.right {
+    float: right;
+}
+
+.footer {
+    background-color: #fff;
+    height: 200px;
+    text-align: right;
+    width: 100%;
+}
+
+.footer .social_media {
+    margin: 65px 0 20px;
+    width: 100%;
+}
+
+.container {
+    padding: 0 200px 0 280px;
+    width: 100%;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+.social_media li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 0 0 10px;
+    text-align: left;
+    text-indent: -9999px;
+    width: 24px;
+}
+
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.github {
+		max-width: 100px;
+		max-height: 100px;
+background-image: url('https://dl.dropboxusercontent.com/u/14962984/github.png');
+    background-position: center center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+                                    }
+
+.linkedin {
+    background-image: url('https://dl.dropboxusercontent.com/u/14962984/linkedin.png');
+    background-position: center center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.twitter {
+    background-image: url('https://dl.dropboxusercontent.com/u/14962984/twitter.png');
+    background-position: center center;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+
